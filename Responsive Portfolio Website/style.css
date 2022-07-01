@@ -165,7 +165,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://c.tenor.com/crNkPq4HPNgAAAAC/blue-code.gif") no-repeat center;
+    background: url("") no-repeat center;
+    border-color: #111;
     height: 100vh;
     color: #fff;
     min-height: 500px;
