@@ -49,8 +49,11 @@ li {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background: url("https://www.hdnicewallpapers.com/Walls/Big/Computers/Superb_HD_Laptop_Background_Wallpaper.jpg") no-repeat center;
     z-index: 1;
+    background-size: cover;
+    min-height: 500px;
+    background-color: #111;
 }
 .navbar{
     color: #fff;
@@ -415,6 +418,7 @@ a.btn:active{
         height: 40rem;
         max-width: 25rem;
     }
+    
 }
 
 @media only screen and (max-width: 768px){
@@ -458,6 +462,10 @@ a.btn:active{
     }
     .project .img-cover {
         border: 1px solid black;
+    }
+    .img{
+        height: 150px;
+        border-radius: 50%;
     }
 }
 .project .img-cover {
