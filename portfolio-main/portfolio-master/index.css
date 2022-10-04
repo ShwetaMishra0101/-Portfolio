@@ -49,7 +49,7 @@ li {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url("https://www.hdnicewallpapers.com/Walls/Big/Computers/Superb_HD_Laptop_Background_Wallpaper.jpg") no-repeat center;
+    /* background: url("https://www.hdnicewallpapers.com/Walls/Big/Computers/Superb_HD_Laptop_Background_Wallpaper.jpg") no-repeat center; */
     z-index: 1;
     background-size: cover;
     min-height: 500px;
@@ -85,8 +85,8 @@ li {
     justify-content: space-between;
 }
 .banner {
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 450px;
     border-radius: 50%;
     margin-top: 100px;
 }
@@ -101,7 +101,11 @@ li {
     width: 70%
 }
 .imgRight {
+    /* width: 70%; */
     width: 70%;
+    /* height: 700px; */
+    display: flex;
+    justify-content: center;
 }
 .logo p {
     font-size: 2rem;
@@ -270,29 +274,34 @@ li {
 }
 @media only screen and (max-width: 700px){
     .banner{
-        width: 180px;
-        height: 180px;
-        margin-top: 350px;
+        width: 200px;
+        height: 200px;
+        margin-top: 220px;
         justify-content: center;
     }
 }
 @media only screen and (max-width: 550px){
     .banner{
-        width: 150px;
+        /* width: 150px;
         height: 150px;
         margin-top: 350px;
-        justify-content: center;
+        justify-content: center; */
+        display: none;
     }
 }
 @media only screen and (max-width: 400px){
     .banner{
         display: none;
+        /* width: 150px;
+        height: 150px;
+        margin-top: 350px;
+        justify-content: center; */
     }
 }
 
 .icons {
     position: absolute;
-    bottom: 5%;
+    bottom: 18%;
     left: 5%;
     color: #fff;
 }
@@ -454,7 +463,15 @@ a.btn:active{
     border-radius: 1rem;
     border-bottom: 4px solid transparent;
     transition: all 300ms ease-in-out;
-    height: 44rem;
+    height: 53rem;
+    /* height: auto; */
+    
+}
+.project_btn{
+    /* margin-bottom: 1rem */
+}
+.project_description{
+ height: 8rem;
 }
 @media only screen and (max-width: 380px){
     .project{
