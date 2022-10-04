@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <link rel="icon" type="image/png" href="./images/COLOR_POP_2.jpg"/>
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <!-- <link rel="icon" type="image/png" href="https://example.com/favicon.png"/> -->
     <title>Shweta Mishra</title>
 </head>
@@ -115,9 +119,6 @@
                         <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" width="30px" height="30px" alt=""/>
                         <img src="https://www.saashub.com/images/app/service_logos/11/ad388324edad/large.png?1531424414" width="30px" height="30px" alt=""/>
                     </div>
-                   
-                </div>
-                <div>
                     <h3>Front-End Frameworks & Libraries :</h3>
                     <p>React | Redux | Material-UI</p>
                     <div class="skillImgs">
@@ -125,7 +126,11 @@
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="30px" height="30px" alt=""/>
                         <img src="https://camo.githubusercontent.com/1797e07d779beebc8b3a4cdf2251405a716645dff0f8f3809eb6b4c648774db7/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e706e67" width="30px" height="30px" alt=""/>
                     </div>
-                    <!-- <h3>Back-End Technology & Framework :</h3>
+                   
+                </div>
+                <div>
+                   
+                    <h3>Back-End Technology & Framework :</h3>
                     <p>Express.js | Node.js</p>
                     <div class="skillImgs">
                         <img src="https://pngimage.net/wp-content/uploads/2018/05/express-js-png-5.png" width="30px" height="30px" alt=""/>
@@ -136,7 +141,7 @@
                     <div class="skillImgs">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="30px" height="30px" alt=""/>
                         <img src="https://voidbetweenears.files.wordpress.com/2018/01/nosqlpng.png" width="35px" height="35px" alt=""/>
-                    </div> -->
+                    </div>
                     <h3>Other Skills :</h3>
                     <p>Data-Structure & Algorithms</p>
                     <div class="skillImgs">
@@ -200,17 +205,15 @@
                 </div>
             </div>
         </section>
-        <!-- <section>
-            <div class="github section" id="github">
-                <div class="title">
-                    <h1>Github</h1>
-                </div>
-                <div class="githubstats">
-                    <img class="githubstats1" src="./images/commits.jpeg" alt=""/>
-                    <img class="githubstats2" src="./images/stats.jpeg" alt=""/>
-                </div>
-            </div>
-        </section> -->
+        <!-- github  -->
+        <section>
+            
+            <div class="calendar" style="height: 300px; width: 70%">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+              </div>
+        </section>
+
         <section class="section contact" id="contact">
             <div class="title">
                 <h1>Contact Me</h1>
@@ -253,5 +256,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="./index.js"></script>
+    <script>
+        GitHubCalendar(".calendar", "ShwetaMishra0101");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "ShwetaMishra0101", { responsive: true });
+      </script>
 </body>
 </html>
