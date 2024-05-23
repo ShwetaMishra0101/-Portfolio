@@ -118,7 +118,8 @@ new TypeIt("#type1", {
     speed: 120,
     loop: true,
     waitUntilVisible: true
-}).type("Full Stack Developer", {delay: 400}).pause(500).delete(20).type('Web Developer', {delay: 400}).pause(500).delete(9).go()
+}).type("Full Stack Developer", {delay: 400}).pause(500).delete(20).type('Web Developer', {delay: 400}).pause(500).delete(20).
+type('React Native App', {delay: 400}).pause(500).delete(20).go()
 
 gsap.from(".logo", {opacity : 0, duration: 1, delay:0.5, y:-10})
 gsap.from(".hamburger", {opacity : 0, duration: 1, delay:1, x:20})
